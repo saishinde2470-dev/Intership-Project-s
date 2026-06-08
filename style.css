@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(241, 195, 231);
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.userInfo{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.leftDiv{
+    flex: 2;
+}
+
+.leftDiv h1{
+    color: rgb(1, 25, 102);
+    margin-bottom: 15px;
+}
+
+.leftDiv p{
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.rightDiv{
+    flex: 1;
+    text-align: center;
+}
+
+.rightDiv img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.btn{
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.HeadingSection{
+    text-align: center;
+    margin: 30px 0;
+    color: orange;
+}
+
+.project3{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.project{
+    width: 250px;
+    text-align: center;
+}
+
+.project img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.project h2{
+    margin: 10px 0;
+}
+
+.project p{
+    margin-bottom: 10px;
+}
+
+.info{
+    text-align: center;
+    line-height: 2;
+    margin-bottom: 30px;
+}
+
+.registerForm{
+    width: 40%;
+    margin: auto;
+}
+
+.textDemo{
+    width: 100%;
+    padding: 10px;
+}
+
+.centerBTN{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: orange;
+}
+
