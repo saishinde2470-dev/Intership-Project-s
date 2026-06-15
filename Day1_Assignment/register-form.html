@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+
+    <style>
+        body{
+            background-color: lightblue;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        form{
+            background-color: white;
+            width: 300px;
+            margin: auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"]
+        {
+            width: 90%;
+            padding: 8px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+        }
+        
+
+        input[type="submit"]
+        {
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+        input[type="submit"]:hover
+        {
+            background-color: darkgreen;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Registration Form</h1>
+
+    <form>
+
+        Name:<br>
+        <input type="text"><br><br>
+
+        Email:<br>
+        <input type="email"><br><br>
+
+        Password:<br>
+        <input type="password"><br><br>
+
+        Gender:
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <br><br>
+
+        Hobbies:
+        <input type="checkbox"> Cricket
+        <input type="checkbox"> Music
+        <input type="checkbox"> Reading
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
+
