@@ -1,0 +1,65 @@
+.customTopNav{
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    padding: 10px 0;
+}
+
+.customGreenBTN{
+    background-color: green;
+    color: white;
+    border: 0;
+    border-radius: 4px;
+    padding: 9px;
+}
+nav.customNav{
+    background-color: rgb(74, 74, 74);
+    padding: 10px 0;
+}
+
+.customNavItem{
+    margin-right: 1.5rem;
+}
+.customNavLink{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+.customNavLink:hover{
+    color: green;
+}
+
+.customFooter{
+    background-color: gray;
+    padding: 3rem;
+    color: white;
+}
+.customFooter h5{
+    color: rgb(211, 211, 211);
+}
+
+.verticalLine{
+    border-left: 2px solid white;
+}
+.socialIcons{
+    margin-right: 20px;
+    margin-top: 4rem;
+    transition: transform 1s;
+
+}
+.socialIcons a{
+    font-size: 2rem;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-radius: 50%;
+    padding: 7px;
+}
+.socialIcons a:hover{
+    background-color: rgb(255, 255, 255);
+    color: green;
+}
+.socialIcons:hover{
+    transform: translateY(-30px);
+
+}
